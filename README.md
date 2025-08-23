@@ -1,10 +1,13 @@
-# Mastering Intelligent Agents with LangGraph — DHS 2025 Workshop
+# Mastering Intelligent Agents with LangGraph - DHS 2025 Workshop
 
 [![Made with LangGraph](https://img.shields.io/badge/Made%20with-LangGraph-blue)](https://github.com/langchain-ai/langgraph)
 [![Colab Ready](https://img.shields.io/badge/Run%20in-Colab-orange)](https://colab.research.google.com/github/dipanjanS/mastering-intelligent-agents-langgraph-workshop-dhs2025/tree/main)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 
 A full-day, hands-on repository for learning to design, build, and ship **Agentic AI systems** using **LangGraph**. The modules progress from LLM I/O and prompting to tool-use, routing, memory and context engineering, advanced multi-agent systems, Agentic RAG and Multimodal Agentic AI, and finally deployment, monitoring, and evaluation.
+
+__Workshop instructor:__ [Dipanjan (DJ) Sarkar](https://www.linkedin.com/in/dipanjans/)
+
 
 ## Repository Structure (collapsible)
 
