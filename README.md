@@ -4,7 +4,7 @@
 [![Colab Ready](https://img.shields.io/badge/Run%20in-Colab-orange)](https://colab.research.google.com/github/dipanjanS/mastering-intelligent-agents-langgraph-workshop-dhs2025/tree/main)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 
-<img align="center" width="350" src="https://i.imgur.com/1tILVCw.jpeg" hspace="0"/>
+<img align="center" width="350" src="https://i.imgur.com/tSpY8V7.jpeg" hspace="0"/>
 
 A full-day, hands-on repository for learning to design, build, and ship **Agentic AI systems** using **LangGraph**. <br/>
 The modules progress from LLM I/O and prompting to tool-use, routing, memory and context engineering, advanced multi-agent systems, Agentic RAG and Multimodal Agentic AI, and finally deployment, monitoring, and evaluation.
