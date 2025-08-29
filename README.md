@@ -1,10 +1,13 @@
-# Mastering Intelligent Agents with LangGraph - DHS 2025 Workshop
+# Mastering Intelligent AI Agents - DHS 2025 Workshop
 
 [![Made with LangGraph](https://img.shields.io/badge/Made%20with-LangGraph-blue)](https://github.com/langchain-ai/langgraph)
 [![Colab Ready](https://img.shields.io/badge/Run%20in-Colab-orange)](https://colab.research.google.com/github/dipanjanS/mastering-intelligent-agents-langgraph-workshop-dhs2025/tree/main)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 
-A full-day, hands-on repository for learning to design, build, and ship **Agentic AI systems** using **LangGraph**. The modules progress from LLM I/O and prompting to tool-use, routing, memory and context engineering, advanced multi-agent systems, Agentic RAG and Multimodal Agentic AI, and finally deployment, monitoring, and evaluation.
+<img align="center" width="350" src="https://i.imgur.com/1tILVCw.jpeg" hspace="0"/>
+
+A full-day, hands-on repository for learning to design, build, and ship **Agentic AI systems** using **LangGraph**. <br/>
+The modules progress from LLM I/O and prompting to tool-use, routing, memory and context engineering, advanced multi-agent systems, Agentic RAG and Multimodal Agentic AI, and finally deployment, monitoring, and evaluation.
 
 __Workshop instructor:__ [Dipanjan (DJ) Sarkar](https://www.linkedin.com/in/dipanjans/)
 
@@ -63,7 +66,11 @@ __Workshop instructor:__ [Dipanjan (DJ) Sarkar](https://www.linkedin.com/in/dipa
 
 ## Module 1 - Introduction to Generative AI and Agentic AI
 
-Get everyone on the same page: a fast recap of GenAI concepts, standard LLM input/output patterns, and prompting basics. Then move into LangGraph fundamentals—state, nodes, edges and add simple control with conditional routing. You’ll finish by building a minimal chatbot, a standard RAG pipeline, and hands-on tool calling to prepare for later agent systems.
+<img align="left" width="200" src="https://i.imgur.com/Dr582yJ.jpeg"/><br/> Get everyone on the same page: a fast recap of GenAI concepts, standard LLM input/output patterns, and prompting basics. 
+Then move into LangGraph fundamentals—state, nodes, edges and add simple control with conditional routing. 
+You’ll finish by building a minimal chatbot, a standard RAG pipeline, and hands-on tool calling to prepare for later agent systems.
+
+<br/><br/>
 
 - **M1LC1 - LLM Input/Output and Prompting**  
   [![View on GitHub](https://img.shields.io/badge/GitHub-View%20Notebook-181717?logo=github)](https://github.com/dipanjanS/mastering-intelligent-agents-langgraph-workshop-dhs2025/blob/main/Module-1-Introduction-to-Generative-AI-and-Agentic-AI/M1LC1_LLM_Input_Output_and_Prompting.ipynb) ·
@@ -91,7 +98,9 @@ Get everyone on the same page: a fast recap of GenAI concepts, standard LLM inpu
 
 ## Module 2 - Building Simple Agentic AI Systems
 
-Go from prompting to practical agents that call tools using the ReAct pattern. You will build a LangGraph ReAct agent, recreate the same flow in CrewAI to compare design tradeoffs, and then implement a Text2SQL assistant that plans, generates SQL, runs queries on a sample database, and explains results with guardrails.
+<img align="left" width="200" src="https://i.imgur.com/7QHU0w0.jpeg"/><br/> Go from prompting to practical agents that call tools using the ReAct pattern. You will build a LangGraph ReAct agent, recreate the same flow in CrewAI to compare design tradeoffs, and then implement a Text2SQL assistant that plans, generates SQL, runs queries on a sample database, and explains results with guardrails.
+
+<br/><br/><br/><br/>
 
 - **M2LC1 - Build a Tool Use ReAct Agentic AI System with LangGraph**  
   [![View on GitHub](https://img.shields.io/badge/GitHub-View%20Notebook-181717?logo=github)](https://github.com/dipanjanS/mastering-intelligent-agents-langgraph-workshop-dhs2025/blob/main/Module-2-Building-Simple-Agentic-AI-Systems/M2LC1_Build_a_Tool_Use_ReAct_Agentic_AI_System_with_LangGraph.ipynb) ·
@@ -107,7 +116,9 @@ Go from prompting to practical agents that call tools using the ReAct pattern. Y
 
 ## Module 3 - Context Engineering for Agentic AI Systems
 
-Design memory-aware agents that work across users and sessions. Learn short-term versus long-term memory, threads and snapshots, and context window management. Use LangMem to persist and retrieve context. Add MCP servers to expose external tools and data. Build a multi-user conversational financial analyst and an adaptive agent that learns from past sessions.
+<img align="left" width="200" src="https://i.imgur.com/UWDyiHg.jpeg"/><br/> Design memory-aware agents that work across users and sessions. Learn short-term versus long-term memory, threads and snapshots, and context window management. Use LangMem to persist and retrieve context. Add MCP servers to expose external tools and data. Build a multi-user conversational financial analyst and an adaptive agent that learns from past sessions.
+
+<br/><br/>
 
 - **M3LC1 - Building Agentic AI Systems with Pre built MCP Servers**  
   [![View on GitHub](https://img.shields.io/badge/GitHub-View%20Notebook-181717?logo=github)](https://github.com/dipanjanS/mastering-intelligent-agents-langgraph-workshop-dhs2025/blob/main/Module-3-Context-Engineering-for-Agentic-AI-Systems/M3LC1_Building_Agentic_AI_Systems_with_Pre_built_MCP_Servers.ipynb) ·
@@ -127,7 +138,9 @@ Design memory-aware agents that work across users and sessions. Learn short-term
 
 ## Module 4 - Building Advanced Agentic AI Systems
 
-Go beyond basic tool-use and add planning, reflection, and collaboration across agents. Learn when to choose single agent versus multi agent patterns, how to parallelize plan execution for speed, and how to structure supervisor and specialist roles. Build a deep research agent that uses tools and the web, and a multi agent workflow for utilization review.
+<img align="left" width="200" src="https://i.imgur.com/e6PPw3m.jpeg"/><br/> Go beyond basic tool-use and add planning, reflection, and collaboration across agents. Learn when to choose single agent versus multi agent patterns, how to parallelize plan execution for speed, and how to structure supervisor and specialist roles. Build a deep research agent that uses tools and the web, and a multi agent workflow for utilization review.
+
+<br/><br/>
 
 - **M4LC1 - Parallelized Plan Execution in Report Planner Agents**  
   [![View on GitHub](https://img.shields.io/badge/GitHub-View%20Notebook-181717?logo=github)](https://github.com/dipanjanS/mastering-intelligent-agents-langgraph-workshop-dhs2025/blob/main/Module-4-Building-Advanced-Agentic-AI-Systems/M4LC1_Parallelized_Plan_Execution_in_Report_Planner_Agents.ipynb) ·
@@ -143,7 +156,9 @@ Go beyond basic tool-use and add planning, reflection, and collaboration across 
 
 ## Module 5 - Building Agentic RAG and Multimodal Agentic AI Systems
 
-Combine retrieval with agents to route questions to the right data and tools. Learn Router Agentic RAG to build a customer support workflow that selects collections, tools, and prompts based on query intent. Jump to multimodal agentic ai by processing invoices with multimodal LLMs and structured extraction, coordinating multiple agents for parsing, validation, and final summaries.
+<img align="left" width="200" src="https://i.imgur.com/Y9DI8Be.jpeg"/><br/> Combine retrieval with agents to route questions to the right data and tools. Learn Router Agentic RAG to build a customer support workflow that selects collections, tools, and prompts based on query intent. Jump to multimodal agentic ai by processing invoices with multimodal LLMs and structured extraction, coordinating multiple agents for parsing, validation, and final summaries.
+
+<br/><br/>
 
 - **M5LC1 - Build a Customer Support Router Agentic RAG System**  
   [![View on GitHub](https://img.shields.io/badge/GitHub-View%20Notebook-181717?logo=github)](https://github.com/dipanjanS/mastering-intelligent-agents-langgraph-workshop-dhs2025/blob/main/Module-5-Building-Agentic-RAG-and-Multimodal-Agentic-AI-Systems/M5LC1_Build_a_Customer_Support_Router_Agentic_RAG_System.ipynb) ·
@@ -155,7 +170,9 @@ Combine retrieval with agents to route questions to the right data and tools. Le
 
 ## Module 6 - Deploying, Monitoring, and Evaluating Agentic AI Systems
 
-Turn a working agent into a reliable web service API. Package a LangGraph agent behind a FastAPI endpoint, run it on the cloud, and support for API calling and async live streaming. Instrument the system with tracing, monitoring and observability metrics, and evaluation runs. Use LangSmith to monitor latency, cost, tool calls, errors, and agent goal, reasoning and trajectory quality.
+<img align="left" width="200" src="https://i.imgur.com/jC9bgG0.jpeg"/><br/> Turn a working agent into a reliable web service API. Package a LangGraph agent behind a FastAPI endpoint, run it on the cloud, and support for API calling and async live streaming. Instrument the system with tracing, monitoring and observability metrics, and evaluation runs. Use LangSmith to monitor latency, cost, tool calls, errors, and agent goal, reasoning and trajectory quality.
+
+<br/><br/>
 
 - **M6LC1 - Build and Deploy a Healthcare Utilization Review AI Agent with LangGraph and FastAPI**  
   [![View on GitHub](https://img.shields.io/badge/GitHub-View%20Notebook-181717?logo=github)](https://github.com/dipanjanS/mastering-intelligent-agents-langgraph-workshop-dhs2025/blob/main/Module-6-Deploying-Monitoring-and-Evaluating-Agentic-AI-Systems/M6LC1_Build_and_Deploy_a_Healthcare_Utilization_Review_AI_Agent_with_LangGraph_and_FastAPI.ipynb) ·
